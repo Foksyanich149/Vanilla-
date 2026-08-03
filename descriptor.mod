@@ -1,0 +1,16 @@
+version="1.0.0"
+tags={
+	"Balance"
+	"Fixes"
+	"Map"
+	"Historical"
+	"National Focuses"
+	"Gameplay"
+	"Events"
+	"Alternative History"
+	"Military"
+	"Technologies"
+}
+name="Vanilla+"
+supported_version="1.19.2.0"
+remote_file_id="3776949247"

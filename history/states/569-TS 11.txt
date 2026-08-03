@@ -1,0 +1,32 @@
+state = {
+	id = 569
+	name = "STATE_569"
+	manpower = 1446759
+	resources = {
+		coal = 15
+	}
+	state_category = town
+	history = {
+		owner = SOV
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = SOV
+		add_core_of = KHA
+		victory_points = { 7757 1 }
+		victory_points = { 7822 1 }
+	}
+	provinces = {
+		1369
+		1685
+		4665
+		4789
+		4793
+		7757
+		7822
+		7886
+		12631
+	}
+	local_supplies = 0.0
+}
