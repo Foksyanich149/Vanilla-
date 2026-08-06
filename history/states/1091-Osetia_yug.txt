@@ -1,0 +1,16 @@
+state = {
+	id = 1091
+	name = "STATE_1091"
+	manpower = 163856
+	state_category = rural
+	history = {
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = GEO
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 1530 1 }
+	}
+	provinces = { 1530 }
+}
