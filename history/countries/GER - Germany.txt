@@ -754,20 +754,6 @@ set_war_support = 0.3
 		autonomous_state = autonomy_puppet
 	}
 	give_military_access = SLO
-	create_wargoal = {
-		type = take_state_focus
-		target = POL
-		generator = {
-			72
-			88
-			90
-			87
-			86
-			762
-			807
-			85
-		}
-	}
 	create_import = {
 		resource = oil
 		factories = 2

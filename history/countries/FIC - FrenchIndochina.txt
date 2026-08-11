@@ -1,0 +1,16 @@
+capital = 671
+set_research_slots = 2
+set_stability = 0.4
+set_war_support = 0.1
+set_politics = {
+	ruling_party = democratic
+	last_election = "1934.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 80
+	communism = 10
+	fascism = 5
+	neutrality = 5
+}
