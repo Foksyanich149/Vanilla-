@@ -61,7 +61,7 @@ set_convoys = 20
 }
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1922.28.2"
+	last_election = "1917.10.09"
 	election_frequency = 0
 	elections_allowed = no
 }
