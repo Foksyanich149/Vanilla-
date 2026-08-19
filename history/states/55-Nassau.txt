@@ -1,0 +1,42 @@
+state = {
+	id = 55
+	name = "STATE_55"
+	manpower = 3798235
+	resources = {
+		coal = 8
+	}
+	state_category = large_city
+	history = {
+		owner = GER
+		add_core_of = GER
+		add_core_of = HES
+		add_core_of = PRE
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			11533 = {
+				dam = 1
+			}
+		}
+		victory_points = { 564 3 }
+		victory_points = { 6444 2 }
+		victory_points = { 11560 2 }
+		1939.1.1 = {
+			buildings = {
+				air_base = 3
+				arms_factory = 4
+				industrial_complex = 4
+			}
+		}
+	}
+	provinces = {
+		564
+		3397
+		3524
+		6549
+		9524
+		9547
+		11445
+		11533
+	}
+}

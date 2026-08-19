@@ -7562,6 +7562,9 @@ focus_tree = {
 			978 = {
 				is_demilitarized_zone = no
 			}
+			1093 = {
+				is_demilitarized_zone = no
+			}
 		}
 		available = {
 			is_subject = no
@@ -7573,6 +7576,9 @@ focus_tree = {
 				is_fully_controlled_by = ROOT
 			}
 			978 = {
+				is_fully_controlled_by = ROOT
+			}
+			1093 = {
 				is_fully_controlled_by = ROOT
 			}
 		}
@@ -7588,6 +7594,9 @@ focus_tree = {
 				set_demilitarized_zone = no
 			}
 			978 = {
+				set_demilitarized_zone = no
+			}
+			1093 = {
 				set_demilitarized_zone = no
 			}
 			set_global_flag = rhineland_remilitarized
