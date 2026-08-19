@@ -1,0 +1,11 @@
+leader_traits = {
+	SOV_manager_of_ONPO = {
+		ai_will_do = {
+			factor = 1
+		}
+		political_power_gain = 0.2
+		stability_factor = -0.10
+		army_advisor_cost_factor = -0.10
+		political_advisor_cost_factor = -0.10
+	}
+}
