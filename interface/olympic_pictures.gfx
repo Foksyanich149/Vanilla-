@@ -1,0 +1,30 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_news_event_olympics_1936"
+        texturefile = "gfx/event_pictures/news_event_olympics_1936.dds"
+    }
+    spriteType = {
+        name = "GFX_news_event_olympics_1944"
+        texturefile = "gfx/event_pictures/news_event_olympics_1944.dds"
+    }
+    spriteType = {
+        name = "GFX_news_event_olympics_1948"
+        texturefile = "gfx/event_pictures/news_event_olympics_1948.dds"
+    }
+    spriteType = {
+        name = "GFX_news_event_olympics_1952"
+        texturefile = "gfx/event_pictures/news_event_olympics_1952.dds"
+    }
+    spriteType = {
+        name = "GFX_news_event_olympics_1956"
+        texturefile = "gfx/event_pictures/news_event_olympics_1956.dds"
+    }
+    spriteType = {
+        name = "GFX_news_event_olympics_1960"
+        texturefile = "gfx/event_pictures/news_event_olympics_1960.dds"
+    }
+    spriteType = {
+        name = "GFX_news_event_olympics_1964"
+        texturefile = "gfx/event_pictures/news_event_olympics_1964.dds"
+    }
+}
