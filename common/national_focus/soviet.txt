@@ -8023,7 +8023,7 @@ focus_tree = {
 				SOV_iosif_stalin = {
 					set_portraits = {
 						civilian = {
-							large = Portrait_Soviet_Joseph_Stalin
+							large = GFX_portrait_SOV_iosif_Stalin
 						}
 					}
 				}
