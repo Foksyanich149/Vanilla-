@@ -3,4 +3,20 @@ spriteTypes = {
         name = "GFX_idea_malenkov_SOV"
         texturefile = "gfx/interface/ideas/GFX_idea_malenkov_SOV.dds"
     }
+        spriteType = {
+        name = "GFX_portrait_SOV_iosif_Stalin"
+        texturefile = "gfx/leaders/SOV/GFX_portrait_SOV_iosif_Stalin.dds"
+    }
+        spriteType = {
+        name = "GFX_portrait_SOV_iosif_Stalin_old"
+        texturefile = "gfx/leaders/SOV/GFX_portrait_SOV_iosif_Stalin_old.dds"
+    }
+        spriteType = {
+        name = "GFX_portrait_SOV_iosif_Stalin_marshall"
+        texturefile = "gfx/leaders/SOV/GFX_portrait_SOV_iosif_Stalin_marshall.dds"
+    }
+        spriteType = {
+        name = "GFX_portrait_SOV_iosif_Stalin_purge"
+        texturefile = "gfx/leaders/SOV/GFX_portrait_SOV_iosif_Stalin_purge.dds"
+    }
 }

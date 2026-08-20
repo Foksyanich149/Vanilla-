@@ -3,10 +3,13 @@ characters = {
 		name = SOV_iosif_stalin
 		portraits = {
 			civilian = {
-				large = GFX_portrait_SOV_iosif_stalin
+				large = GFX_portrait_SOV_iosif_Stalin
+				large = GFX_portrait_SOV_iosif_Stalin_old
+				large = GFX_portrait_SOV_iosif_Stalin_purge
+
 			}
 			army = {
-				large = GFX_portrait_SOV_iosif_stalin
+				large = GFX_portrait_SOV_iosif_Stalin_marshall
 				small = GFX_portrait_SOV_iosif_stalin_small
 			}
 		}
