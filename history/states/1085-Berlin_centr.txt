@@ -20,6 +20,7 @@ state = {
                         has_dlc = "Gotterdammerung"
                     }
                 }
+			}
 		}
 	}
 	provinces = { 13415 }
