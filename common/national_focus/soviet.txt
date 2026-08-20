@@ -15,7 +15,7 @@ focus_tree = {
 	focus = {
 		id = SOV_infrastructure_effort_nsb
 		icon = GFX_SOV_infrastructure_effort_nsb_ccp_2d_sov_compatibility
-		x = 1
+		x = 0
 		y = 0
 		cost = 5
 		ai_will_do = {
@@ -1411,9 +1411,8 @@ focus_tree = {
 	focus = {
 		id = SOV_found_the_warsaw_pact
 		icon = GFX_focus_SOV_found_the_warsaw_pact
-		x = 68
-		y = -2
-		relative_position_id = SOV_found_the_comecon
+		x = 8
+		y = 2
 		cost = 10
 		allow_branch = {
 			has_government = communism
@@ -1445,6 +1444,7 @@ focus_tree = {
 			focus = SOV_seek_balkan_cooperation
 			focus = SOV_demand_balkan_submission
 		}
+		relative_position_id = SOV_eradicate_western_fascism
 	}
 	focus = {
 		id = SOV_no_time_for_peace
@@ -2360,7 +2360,7 @@ focus_tree = {
 		prerequisite = {
 			focus = SOV_merge_aircraft_plants
 		}
-		x = 0
+		x = -1
 		y = 2
 		relative_position_id = SOV_merge_aircraft_plants
 		cost = 10
@@ -8019,6 +8019,15 @@ focus_tree = {
 					SOV_the_red_army_mastery_loss_factor_inverted = -1
 				}
 			}
+			hidden_effect = {
+				SOV_iosif_stalin = {
+					set_portraits = {
+						civilian = {
+							large = Portrait_Soviet_Joseph_Stalin
+						}
+					}
+				}
+			}
 		}
 	}
 	focus = {
@@ -8602,7 +8611,7 @@ focus_tree = {
 			focus = SOV_the_right_opposition
 			focus = SOV_the_centre
 		}
-		x = 36
+		x = 2
 		y = 1
 		offset = {
 			x = -7
@@ -9987,7 +9996,7 @@ focus_tree = {
 			focus = SOV_the_left_opposition
 			focus = SOV_the_centre
 		}
-		x = 16
+		x = 15
 		y = 0
 		relative_position_id = SOV_the_left_opposition
 		cost = 5
@@ -11347,7 +11356,7 @@ focus_tree = {
 			focus = SOV_the_left_opposition
 			focus = SOV_the_right_opposition
 		}
-		x = 10
+		x = 9
 		y = 1
 		relative_position_id = SOV_the_left_opposition
 		mutually_exclusive = {
@@ -11496,7 +11505,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SOV_military_support
 		}
-		x = 12
+		x = 11
 		y = 1
 		relative_position_id = SOV_the_left_opposition
 		cost = 5
@@ -11518,7 +11527,7 @@ focus_tree = {
 			focus = SOV_the_left_opposition
 			focus = SOV_the_right_opposition
 		}
-		x = 8
+		x = 7
 		y = 1
 		relative_position_id = SOV_the_left_opposition
 		cost = 10
@@ -11558,7 +11567,7 @@ focus_tree = {
 			focus = SOV_the_left_opposition
 			focus = SOV_the_right_opposition
 		}
-		x = 4
+		x = 3
 		y = 1
 		relative_position_id = SOV_the_left_opposition
 		cost = 5
@@ -11580,7 +11589,7 @@ focus_tree = {
 			focus = SOV_the_left_opposition
 			focus = SOV_the_right_opposition
 		}
-		x = 6
+		x = 5
 		y = 1
 		relative_position_id = SOV_the_left_opposition
 		cost = 10
@@ -11927,7 +11936,7 @@ focus_tree = {
 			focus = SOV_all_power_to_the_soviets
 			focus = SOV_incorporate_local_organizations
 		}
-		x = 7
+		x = 6
 		y = 1
 		offset = {
 			x = -5
@@ -12009,7 +12018,7 @@ focus_tree = {
 		prerequisite = {
 			focus = SOV_the_path_of_marxism_leninism
 		}
-		x = -1
+		x = 24
 		y = 1
 		offset = {
 			x = -7
@@ -12428,7 +12437,7 @@ focus_tree = {
 		prerequisite = {
 			focus = SOV_the_path_of_marxism_leninism
 		}
-		x = 10
+		x = 9
 		y = 0
 		relative_position_id = SOV_addressing_internal_affairs
 		cost = 5
@@ -13226,7 +13235,7 @@ focus_tree = {
 		prerequisite = {
 			focus = SOV_the_comintern
 		}
-		x = 3
+		x = 5
 		y = 1
 		relative_position_id = SOV_the_comintern
 		cost = 5
@@ -13259,9 +13268,8 @@ focus_tree = {
 	focus = {
 		id = SOV_approach_germany
 		icon = GFX_goal_molotov_ribbentrop_pact
-		x = -2
+		x = 1
 		y = 1
-		relative_position_id = SOV_policy_of_individual_security
 		cost = 5
 		ai_will_do = {
 			factor = 1
@@ -13560,6 +13568,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SOV_anti_fascist_policies
 		}
+		relative_position_id = SOV_policy_of_collective_security
 	}
 	focus = {
 		id = SOV_liberation_of_the_european_proletariat
@@ -13662,9 +13671,8 @@ focus_tree = {
 	focus = {
 		id = SOV_anti_capitalist_policies
 		icon = GFX_focus_spr_class_war
-		x = 2
-		y = 0
-		relative_position_id = SOV_policy_of_individual_security
+		x = 1
+		y = 1
 		cost = 5
 		ai_will_do = {
 			factor = 1
@@ -13716,8 +13724,9 @@ focus_tree = {
 			}
 		}
 		prerequisite = {
-			focus = SOV_the_comintern
+			focus = SOV_approach_germany
 		}
+		relative_position_id = SOV_approach_germany
 	}
 	focus = {
 		id = SOV_recover_alaska
@@ -13882,11 +13891,8 @@ focus_tree = {
 	focus = {
 		id = SOV_the_fight_for_the_pacific
 		icon = GFX_SOV_the_fight_for_the_pacific_ccp_2d_sov_compatibility
-		prerequisite = {
-			focus = SOV_recover_alaska
-		}
-		x = 0
-		y = 1
+		x = 1
+		y = 0
 		relative_position_id = SOV_recover_alaska
 		cost = 10
 		ai_will_do = {
@@ -14049,6 +14055,9 @@ focus_tree = {
 				category = shbb_tech
 			}
 		}
+		prerequisite = {
+			focus = SOV_anti_capitalist_policies
+		}
 	}
 	focus = {
 		id = SOV_baltic_security
@@ -14056,9 +14065,8 @@ focus_tree = {
 		prerequisite = {
 			focus = SOV_the_comintern
 		}
-		x = 3
+		x = 5
 		y = 0
-		relative_position_id = SOV_anti_capitalist_policies
 		cost = 5
 		ai_will_do = {
 			factor = 1
@@ -14223,6 +14231,7 @@ focus_tree = {
 				}
 			}
 		}
+		relative_position_id = SOV_policy_of_individual_security
 	}
 	focus = {
 		id = SOV_respect_baltic_self_determination
@@ -16669,8 +16678,6 @@ focus_tree = {
 						relation = non_aggression_pact
 						active = yes
 					}
-					add_stability = -10
-					add_political_power = -75
 				}
 			}
 		}
@@ -16892,7 +16899,7 @@ focus_tree = {
 	focus = {
 		id = SOV_beaten_but_not_defeated
 		icon = GFX_SOV_beaten_but_not_defeated_ccp_2d_sov_compatibility
-		x = 68
+		x = 65
 		y = 0
 		relative_position_id = SOV_the_path_of_marxism_leninism
 		offset = {
@@ -20057,30 +20064,47 @@ focus_tree = {
 		icon = GFX_focus_generic_communist_asia
 		x = 0
 		y = 1
-		cost = 5
+		cost = 10
 		completion_reward = {
 			add_political_power = 50
-			add_stability = 0.05
+			add_stability = 5
 			add_popularity = {
-				ideology = ruling_party
-				popularity = 0.03
+				ideology = communism
+				popularity = 0.05
 			}
 		}
+		relative_position_id = SOV_policy_of_individual_security
 		prerequisite = {
 			focus = SOV_policy_of_individual_security
 		}
-		relative_position_id = SOV_policy_of_individual_security
+		available = {
+			is_subject = no
+			NOT = {
+				has_country_flag = SOV_paranoia_system_active
+			}
+		}
 	}
 	focus = {
 		id = SOV_lend_lease_from_allies
 		icon = GFX_focus_generic_arms_trade
 		x = 0
 		y = 3
-		cost = 5
+		cost = 10
 		completion_reward = {}
 		prerequisite = {
 			focus = SOV_independent_path
 		}
 		relative_position_id = SOV_independent_path
+		available = {
+			has_war_with_major = yes
+			NOT = {
+				has_war_with = USA
+			}
+		}
+		bypass = {
+			NOT = {
+				country_exists = USA
+			}
+		}
 	}
 }
