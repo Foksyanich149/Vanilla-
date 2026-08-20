@@ -1,6 +1,6 @@
 state = {
 	id = 1093
-	name = "STATE_1093"
+	name = "Frankfurt"
 	manpower = 219775
 	state_category = large_city
 	history = {
@@ -13,7 +13,6 @@ state = {
 		}
 		set_demilitarized_zone = yes
 		victory_points = { 6488 20 }
-		victory_points = { 6444 2 }
 	}
 	provinces = { 9486 6444 6488 589 3574 }
 	local_supplies = 15
