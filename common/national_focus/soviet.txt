@@ -20107,4 +20107,370 @@ focus_tree = {
 			}
 		}
 	}
+	focus = {
+		id = SOV_Great_War_VOV
+		icon = GFX_goal_unknown
+		x = -9
+		y = 2
+		cost = 0
+		completion_reward = {}
+		relative_position_id = SOV_the_glory_of_the_red_army
+	}
+	focus = {
+		id = SOV_reorg_VOV
+		icon = GFX_goal_unknown
+		x = 26
+		y = 9
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_Great_War_VOV
+		}
+	}
+	focus = {
+		id = SOV_atack_VOV
+		icon = GFX_goal_unknown
+		x = 36
+		y = 9
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_Great_War_VOV
+		}
+	}
+	focus = {
+		id = SOV_start_peregroop_VOV
+		icon = GFX_goal_unknown
+		x = 24
+		y = 10
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_reorg_VOV
+		}
+	}
+	focus = {
+		id = SOV_lendliz_accept_VOV
+		icon = GFX_goal_unknown
+		x = 26
+		y = 10
+		cost = 10
+		completion_reward = {}
+		mutually_exclusive = {
+			focus = SOV_our_army_VOV
+		}
+		prerequisite = {
+			focus = SOV_reorg_VOV
+		}
+	}
+	focus = {
+		id = SOV_our_army_VOV
+		icon = GFX_goal_unknown
+		x = 28
+		y = 10
+		cost = 10
+		completion_reward = {}
+		mutually_exclusive = {
+			focus = SOV_lendliz_accept_VOV
+		}
+		prerequisite = {
+			focus = SOV_reorg_VOV
+		}
+	}
+	focus = {
+		id = SOV_org1_VOV
+		icon = GFX_goal_unknown
+		x = 20
+		y = 12
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_start_peregroop_VOV
+		}
+	}
+	focus = {
+		id = SOV_org2_VOV
+		icon = GFX_goal_unknown
+		x = 22
+		y = 12
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_start_peregroop_VOV
+		}
+	}
+	focus = {
+		id = SOV_org3_VOV
+		icon = GFX_goal_unknown
+		x = 24
+		y = 12
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_start_peregroop_VOV
+		}
+	}
+	focus = {
+		id = SOV_end_of_reorg_VOV
+		icon = GFX_goal_unknown
+		x = 22
+		y = 14
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_org1_VOV
+		}
+		prerequisite = {
+			focus = SOV_org2_VOV
+		}
+		prerequisite = {
+			focus = SOV_org3_VOV
+		}
+	}
+	focus = {
+		id = SOV_big_ports_VOV
+		icon = GFX_goal_unknown
+		x = 26
+		y = 12
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_lendliz_accept_VOV
+		}
+	}
+	focus = {
+		id = SOV_more_guns_VOV
+		icon = GFX_goal_unknown
+		x = 26
+		y = 14
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_lendliz_accept_VOV
+		}
+	}
+	focus = {
+		id = SOV_factories_to_siberia_VOV
+		icon = GFX_goal_unknown
+		x = 28
+		y = 12
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_our_army_VOV
+		}
+	}
+	focus = {
+		id = SOV_free_guns_VOV
+		icon = GFX_goal_unknown
+		x = 28
+		y = 14
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_factories_to_siberia_VOV
+		}
+	}
+	focus = {
+		id = SOV_final_of_defens_VOV
+		icon = GFX_goal_unknown
+		x = 26
+		y = 15
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_end_of_reorg_VOV
+		}
+		prerequisite = {
+			focus = SOV_war_support_VOV
+		}
+	}
+	focus = {
+		id = SOV_propaganda_VOV
+		icon = GFX_goal_unknown
+		x = 31
+		y = 10
+		cost = 10
+		completion_reward = {}
+	}
+	focus = {
+		id = SOV_stability_VOV
+		icon = GFX_goal_unknown
+		x = 30
+		y = 12
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_propaganda_VOV
+		}
+	}
+	focus = {
+		id = SOV_war_support_VOV
+		icon = GFX_goal_unknown
+		x = 30
+		y = 14
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_stability_VOV
+		}
+	}
+	focus = {
+		id = SOV_purge_VOV
+		icon = GFX_goal_unknown
+		x = 32
+		y = 12
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_propaganda_VOV
+		}
+	}
+	focus = {
+		id = SOV_plakati_VOV
+		icon = GFX_goal_unknown
+		x = 31
+		y = 13
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_propaganda_VOV
+		}
+	}
+	focus = {
+		id = SOV_operacii1_VOV
+		icon = GFX_goal_unknown
+		x = 38
+		y = 10
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_atack_VOV
+		}
+	}
+	focus = {
+		id = SOV_operacii2_VOV
+		icon = GFX_goal_unknown
+		x = 38
+		y = 12
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_operacii1_VOV
+		}
+	}
+	focus = {
+		id = SOV_operacii3_VOV
+		icon = GFX_goal_unknown
+		x = 40
+		y = 13
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_operacii1_VOV
+		}
+	}
+	focus = {
+		id = SOV_operacii4_VOV
+		icon = GFX_goal_unknown
+		x = 42
+		y = 12
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_operacii1_VOV
+		}
+	}
+	focus = {
+		id = SOV_udar_armii_VOV
+		icon = GFX_goal_unknown
+		x = 36
+		y = 11
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_atack_VOV
+		}
+	}
+	focus = {
+		id = SOV_umnaya_armiya_VOV
+		icon = GFX_goal_unknown
+		x = 34
+		y = 12
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_atack_VOV
+		}
+	}
+	focus = {
+		id = SOV_injineri_VOV
+		icon = GFX_goal_unknown
+		x = 33
+		y = 13
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_purge_VOV
+		}
+		prerequisite = {
+			focus = SOV_umnaya_armiya_VOV
+		}
+	}
+	focus = {
+		id = SOV_krutaja_armija_VOV
+		icon = GFX_goal_unknown
+		x = 36
+		y = 13
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_udar_armii_VOV
+		}
+	}
+	focus = {
+		id = SOV_issledoyaniya_i_pp_VOV
+		icon = GFX_goal_unknown
+		x = 33
+		y = 15
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_plakati_VOV
+		}
+		prerequisite = {
+			focus = SOV_injineri_VOV
+		}
+		prerequisite = {
+			focus = SOV_krutaja_armija_VOV
+		}
+	}
+	focus = {
+		id = SOV_tanks_VOV
+		icon = GFX_goal_unknown
+		x = 36
+		y = 15
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_krutaja_armija_VOV
+		}
+	}
+	focus = {
+		id = SOV_final_VOV
+		icon = GFX_goal_unknown
+		x = 31
+		y = 17
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_final_of_defens_VOV
+		}
+		prerequisite = {
+			focus = SOV_issledoyaniya_i_pp_VOV
+		}
+		prerequisite = {
+			focus = SOV_tanks_VOV
+		}
+	}
 }
