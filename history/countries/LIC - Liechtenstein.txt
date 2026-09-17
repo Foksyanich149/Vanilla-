@@ -1,0 +1,16 @@
+set_research_slots = 2
+set_stability = 0.6
+set_war_support = 0.3
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1929.2.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 15
+	communism = 0
+	fascism = 0
+	neutrality = 85
+}
+recruit_character = LIC_franz_i

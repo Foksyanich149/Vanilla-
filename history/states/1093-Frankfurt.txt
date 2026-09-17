@@ -12,6 +12,9 @@ state = {
 			industrial_complex = 1
 		}
 		set_demilitarized_zone = yes
+		1936.3.7 = {
+			set_demilitarized_zone = no
+		}
 		victory_points = { 6488 20 }
 	}
 	provinces = { 9486 6444 6488 589 3574 }

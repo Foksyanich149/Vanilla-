@@ -1,1 +1,2 @@
 FIC = "countries/FrenchIndochina.txt"
+LIC = "countries/Liechtenstein.txt"

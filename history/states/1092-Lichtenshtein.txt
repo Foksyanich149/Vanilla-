@@ -4,12 +4,12 @@ state = {
 	manpower = 10500
 	state_category = rural
 	history = {
-		owner = AUS
-		add_core_of = AUS
+		owner = LIC
 		victory_points = { 13419 1 }
 		buildings = {
 			infrastructure = 1
 		}
+		add_core_of = LIC
 	}
 	provinces = { 13419 }
 }
