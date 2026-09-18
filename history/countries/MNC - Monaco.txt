@@ -1,0 +1,17 @@
+set_research_slots = 2
+set_stability = 0.6
+set_war_support = 0.4
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1922.6.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 18
+	communism = 0
+	fascism = 0
+	neutrality = 82
+}
+recruit_character = MNC_louis_ii
+capital = 1094

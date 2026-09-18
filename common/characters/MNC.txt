@@ -1,0 +1,11 @@
+characters = {
+	MNC_louis_ii = {
+		name = MNC_louis_ii
+		country_leader = {
+			ideology = despotism
+			expire = "1965.1.1.1"
+			traits = {}
+			id = -1
+		}
+	}
+}

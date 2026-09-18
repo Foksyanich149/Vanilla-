@@ -14,3 +14,4 @@ set_popularities = {
 	neutrality = 85
 }
 recruit_character = LIC_franz_i
+capital = 1092
