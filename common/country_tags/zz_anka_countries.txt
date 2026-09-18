@@ -1,3 +1,4 @@
 FIC = "countries/FrenchIndochina.txt"
 LIC = "countries/Liechtenstein.txt"
 MNC = "countries/Monaco.txt"
+AND = "countries/Andorra.txt"

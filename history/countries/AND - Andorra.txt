@@ -1,0 +1,17 @@
+set_research_slots = 1
+set_stability = 0.45
+set_war_support = 0.12
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 15
+	communism = 0
+	fascism = 0
+	neutrality = 85
+}
+capital = 1095
+recruit_character = AND_co_princes

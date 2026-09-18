@@ -7,5 +7,10 @@ characters = {
 			traits = {}
 			id = -1
 		}
+		portraits = {
+			civilian = {
+				large = GFX_portrait_LIC_franz_i
+			}
+		}
 	}
 }

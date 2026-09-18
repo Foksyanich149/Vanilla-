@@ -1,0 +1,16 @@
+characters = {
+	AND_co_princes = {
+		name = AND_co_princes
+		country_leader = {
+			ideology = despotism
+			expire = "1965.1.1.1"
+			traits = {}
+			id = -1
+		}
+		portraits = {
+			civilian = {
+				large = GFX_portrait_AND_co_princes
+			}
+		}
+	}
+}
